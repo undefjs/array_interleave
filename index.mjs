@@ -9,7 +9,7 @@
  * // returns [ 1, 4, 2, 3 ]
  * array_interleave([ 1, 2, 3, 4 ]);
  */
-export function array_interleave(arr) {
+export default function array_interleave(arr) {
   const len = arr.length;
   const ret = new Array(len);
   const mid = Math.ceil(len / 2);
