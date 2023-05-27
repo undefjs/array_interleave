@@ -2,12 +2,12 @@
 'use strict';
 
 /**
- * Interleave an array
- * @param {any[]} arr
- * @returns {any[]}
+ * Returns an interleaved copy of an array.
+ * @param {any[]} arr - The input array.
+ * @returns {any[]} - The output array.
  * @example
- * // returns [ 1, 8, 2, 7, 3, 6, 4, 5 ]
- * array_interleave([ 1, 2, 3, 4, 5, 6, 7, 8 ]);
+ * // returns [ 1, 4, 2, 3 ]
+ * array_interleave([ 1, 2, 3, 4 ]);
  */
 export function array_interleave(arr) {
   const len = arr.length;
