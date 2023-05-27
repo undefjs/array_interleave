@@ -2,9 +2,9 @@
 'use strict';
 
 /**
- * Interleave a number array
- * @param {number[]} arr
- * @returns {number[]}
+ * Interleave an array
+ * @param {any[]} arr
+ * @returns {any[]}
  * @example
  * // returns [ 1, 8, 2, 7, 3, 6, 4, 5 ]
  * array_interleave([ 1, 2, 3, 4, 5, 6, 7, 8 ]);
