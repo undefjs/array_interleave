@@ -1,8 +1,13 @@
 # array_interleave
-Usage:
 
 ```js
-array_interleave([ 1, 2, 3, 4, 5, 6, 7, 8 ])
-=> [ 1, 8, 2, 7, 3, 6, 4, 5 ]
+import array_interleave from 'path/to/array_interleave';
+
+// Example usage
+const inputArray = [1, 2, 3, 4];
+const interleavedArray = array_interleave(inputArray);
+
+console.log(interleavedArray);
+// Output: [ 1, 4, 2, 3 ]
 ```
 
