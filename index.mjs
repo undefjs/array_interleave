@@ -3,8 +3,10 @@
 
 /**
  * Returns an interleaved copy of an array.
+ *
  * @param {any[]} arr - The input array.
  * @returns {any[]} The interleaved array.
+ *
  * @example
  * // returns [ 1, 4, 2, 3 ]
  * array_interleave([ 1, 2, 3, 4 ]);
